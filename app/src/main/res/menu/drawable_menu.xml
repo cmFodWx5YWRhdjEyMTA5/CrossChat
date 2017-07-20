@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+ <item android:id="@+id/home"
+     android:icon="@mipmap/ic_home_black_24dp"
+     android:title="Home"/>
+ <item android:id="@+id/mprofile"
+     android:icon="@mipmap/ic_person"
+  android:title="My Profile"/>
+    <item android:id="@+id/change_range"
+     android:icon="@mipmap/ic_location"
+ android:title="Change Range"/>
+<item android:id="@+id/update"
+    android:icon="@mipmap/ic_update"
+    android:title="Update Map"/>
+    <item android:id="@+id/contact_us"
+        android:icon="@mipmap/ic_contact_us"
+      android:title="Contact Us"/>
+    <item android:id="@+id/about_us"
+        android:icon="@mipmap/ic_about_us"
+      android:title="About Us"/>
+   <item android:id="@+id/logout"
+       android:icon="@mipmap/ic_sign_out"
+    android:title="LogOut"/>
+   <item android:id="@+id/nav_exit"
+
+    android:title="Exit"/>
+
+
+</menu>

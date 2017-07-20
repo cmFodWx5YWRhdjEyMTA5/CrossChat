@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/sign_in_background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create a new account"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_margin="1dp"
+            style="@style/CodeFont"
+            android:padding="5dp"
+            android:textSize="20sp"
+            android:id="@+id/sign_up_heading"
+            android:layout_weight="0.13" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:background="@drawable/border_style"
+                android:hint=" Full Name"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:ems="10"
+                android:id="@+id/users_name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint=" Username"
+                android:ems="10"
+                android:background="@drawable/border_style"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:id="@+id/username" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:background="@drawable/border_style"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint=" E-mail Address"
+                android:ems="10"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:id="@+id/email_address" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:background="@drawable/border_style"
+                android:hint=" Password"
+                android:ems="10"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:id="@+id/password" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:hint=" Re-Password"
+                android:ems="10"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="@drawable/border_style"
+                android:id="@+id/re_password" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent" >
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint=" Phone Number"
+                android:background="@drawable/border_style"
+                android:ems="10"
+                android:layout_margin="5dp"
+
+                android:padding="5dp"
+                android:id="@+id/mobile_number" />
+        </android.support.design.widget.TextInputLayout>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/security_question"
+            android:spinnerMode="dialog"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:background="@drawable/border_style"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Security Answer"
+            android:id="@+id/security_answer"
+            android:background="@drawable/border_style"
+            android:layout_margin="5dp"
+            android:padding="5dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/next_button"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:theme="@style/google"
+            android:text="Next"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/olduser"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:id="@+id/already_have_account"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

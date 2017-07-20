@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@mipmap/dialog_background"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    tools:context="com.example.kamaloli.crosschat.CrossChat">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:text="Details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:id="@+id/dailog_detail" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:text="Name: "
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:text="Value"
+                android:id="@+id/full_name"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"
+                android:textSize="10sp"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:text="Username :"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:text="Username"
+                android:id="@+id/username"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+
+                android:text="Email : "
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="10dp"
+                android:textSize="10sp"
+                android:id="@+id/email_address"
+                android:textColor="#ffffff"
+                android:text="Email"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:text="Address : "
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:text="Address"
+                android:id="@+id/permanent_address" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:text="Interest Field: "
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:text="Interested Field"
+                android:id="@+id/interested_field"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:text="Highest Degree:"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:text="Qualification"
+                android:id="@+id/highest_qualification" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:text="Specialization :"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:padding="2dp"
+                android:textSize="10sp"
+                android:textColor="#ffffff"
+                android:text="Specialization"
+                android:id="@+id/area_of_specialization"
+                />
+
+        </LinearLayout>
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_vertical"-->
+            <!--&gt;-->
+            <!--<Button-->
+                <!--android:text="Cancel"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:id="@+id/cancel_user_detail"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentStart="true"-->
+                <!--android:padding="2dp"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:theme="@style/google"-->
+                <!--android:layout_marginLeft="30dp"-->
+                <!--android:layout_alignParentTop="true" />-->
+
+            <!--<Button-->
+                <!--android:text="Chat"-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="30dp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:layout_marginRight="30dp"-->
+                <!--android:id="@+id/chat"-->
+                <!--android:layout_weight="1"-->
+                <!--android:padding="2dp"-->
+                <!--android:theme="@style/google"-->
+                <!--android:layout_alignBottom="@+id/cancel_user_detail"-->
+                <!--android:layout_marginBottom="2dp"-->
+                <!--android:layout_alignTop="@+id/cancel_user_detail"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentEnd="true" />-->
+        <!--</RelativeLayout>-->
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@mipmap/sign_in_background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create a new account"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            style="@style/CodeFont"
+            android:padding="13dp"
+            android:textSize="35sp"
+            android:id="@+id/location_form_heading"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Permanant Address"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:ems="10"
+            android:background="@drawable/border_style"
+            android:id="@+id/permanent_address"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Educational Level"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:ems="10"
+            android:background="@drawable/border_style"
+            android:id="@+id/education_level" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Country "
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:ems="10"
+            android:background="@drawable/border_style"
+            android:id="@+id/country" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" City "
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:ems="10"
+            android:background="@drawable/border_style"
+            android:id="@+id/city" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Area of Specialization"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:ems="10"
+            android:background="@drawable/border_style"
+            android:id="@+id/area_of_specialization" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=" Interested Field"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:ems="10"
+            android:background="@drawable/border_style"
+            android:id="@+id/interested_field" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/submit"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:layout_gravity="center"
+            android:theme="@style/google"
+            android:text="Submit"/>
+    </LinearLayout>
+</RelativeLayout>
